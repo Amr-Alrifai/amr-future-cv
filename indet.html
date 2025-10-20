@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amr Alrifai – Personligt brev → Framtida CV</title>
+  <style>
+    :root{
+      --blue:#1b4b7a;
+      --blue2:#2f6ea6;
+      --bg:#d9d9d9;
+      --card:#ffffff;
+      --ink:#0f172a;
+      --muted:#64748b;
+      --accent:#00bcd4;
+      --flash:#e0f7fa;
+    }
+    *{box-sizing:border-box}
+    body{ margin:0; font-family:"Fira Code", Consolas, monospace; color:var(--ink); background:var(--bg); }
+
+    .wrap{ max-width:980px; margin:0 auto; padding:28px 20px 56px; }
+    .badge{ display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:999px; background:#fff; border:1px solid #e5e7eb; color:var(--blue); font-weight:700; }
+
+    .card{ position:relative; background:var(--card); border:1px solid #e5e7eb; border-radius:20px; box-shadow:0 10px 30px rgba(27,75,122,.12); overflow:hidden; }
+    .cover{ display:flex; align-items:center; justify-content:space-between; gap:16px; padding:26px; background:linear-gradient(120deg, var(--blue), var(--blue2)); color:#fff; }
+    .cover h1{ margin:0; font-size:24px; }
+    .cover small{ opacity:.9 }
+    .meta{ display:flex; gap:14px; flex-wrap:wrap; font-size:14px; }
+    .meta a{ color:#fff; text-decoration:underline; }
+
+    .section{ padding:26px; }
+    .letter{ display:grid; gap:14px; }
+    .letter h2{ margin:0 0 6px; font-size:18px; }
+    .muted{ color:var(--muted); }
+
+    .cta-area{ position:relative; display:flex; justify-content:flex-end; align-items:center; gap:14px; margin-top:20px; }
+    .cta{ position:relative; border:none; cursor:pointer; padding:12px 16px; border-radius:12px; background:var(--blue); color:#fff; font-weight:800; box-shadow:0 8px 18px rgba(27,75,122,.3); transition:transform .2s, box-shadow .2s; }
+    .cta:hover{ box-shadow:0 0 16px var(--accent), 0 0 32px rgba(27,75,122,.4); transform:scale(1.05); }
+
+    .arrow{ position:absolute; font-size:22px; color:var(--accent); filter:drop-shadow(0 2px 6px rgba(0,0,0,.2)); }
+    .arrow.a{ left:-8px; top:-16px; transform:rotate(-20deg); animation:bob 1.4s ease-in-out infinite; }
+    .arrow.b{ right:-6px; top:-8px; transform:rotate(20deg); animation:bob 1.6s .2s ease-in-out infinite; }
+    @keyframes bob{ 0%,100%{ transform:translateY(0); } 50%{ transform:translateY(-5px); } }
+
+    .views{ position:relative; min-height:420px; overflow:hidden; }
+    .view{ position:absolute; inset:0; padding:0; opacity:0; transform:translateX(20px) scale(.98); pointer-events:none; transition:opacity .4s ease, transform .4s ease; }
+    .view.active{ opacity:1; transform:none; pointer-events:auto; }
+
+    .flash-transition{ position:absolute; inset:0; background:var(--flash); opacity:0; z-index:99; }
+    .flash-active{ animation:flash .8s ease-in-out; }
+    @keyframes flash{ 0%{opacity:0;} 20%{opacity:1;} 60%{opacity:1;} 100%{opacity:0;} }
+
+    .back{ display:inline-block; margin-top:6px; color:var(--blue2); text-decoration:underline; cursor:pointer; font-weight:700; }
+
+    .cv{ display:grid; gap:18px; padding:26px; }
+    .cv h2{ margin:0; font-size:20px; }
+    .grid{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+    .pill{ display:inline-block; padding:8px 12px; border-radius:999px; background:#eef2ff; color:#334155; border:1px solid #dbeafe; font-weight:700; }
+    .kudos{ background:#f1f5f9; border:1px dashed #cbd5e1; padding:12px; border-radius:12px; }
+
+    @media (max-width:720px){ .grid{ grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="badge">Göteborg · Digitalt personligt brev · Interaktiv demo</span>
+
+    <section class="card">
+      <div class="cover">
+        <div>
+          <h1>Amr Alrifai</h1>
+          <small>Ansökan: Serviceinriktad kontorsvärd · Coworking</small>
+        </div>
+        <div class="meta">
+          <span>📞 073‑539 49 33</span>
+          <span>📧 amr.alrifai01@outlook.com</span>
+          <a href="https://www.linkedin.com/in/amr-alrifai/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="views">
+        <div class="view active" id="present">
+          <div class="section letter">
+            <h2>Hej!</h2>
+            <p>Jag söker rollen där ni vill ha en serviceinriktad person som håller ert coworking‑kontor välkomnande och i ordning. Jag trivs i miljöer där jag får skapa trivsel, struktur och hjälpa både hyresgäster och kollegor så att allt flyter.</p>
+            <p>Jag har arbetat på Liseberg som kock, bartender och servis. I både arbetet och utbildningen ingick en delkurs i <strong>service och bemötande</strong> – mot såväl kollegor som gäster. Det har gjort mig trygg i att kommunicera, lösa praktiska problem snabbt och hålla hög kvalitet när tempot är högt.</p>
+            <p>Framåt planerar jag att studera till <strong>automationsingenjör inom robotik</strong> (med sökta IT‑studier som backup). Utbildningen innehåller mycket självstudier, vilket gör att jag kan arbeta de dagar ni önskar – <strong>måndag, onsdag och fredag</strong> – och bidra med energi och kontinuitet.</p>
+            <p>Jag byter yrke och vill ha en smidig övergång till en mer företagsnära miljö. Jag är <strong>nyfiken, självgående</strong> och gillar att <strong>serva människor</strong>. Att få en fot in i den corporate/coworking‑miljö ni beskriver känns helt rätt för mig.</p>
+            <p>Jag tror att min kombination av servicevana, ordningssinne och ansvarstagande passar er roll väl. Jag kan börja omgående och hjälper gärna till med onboarding av hyresgäster, enklare administration, skyltning, avtalstöd och event.</p>
+
+            <div class="cta-area">
+              <button class="cta" id="toFuture">Hire me, see 2026?</button>
+              <span class="arrow a">⬆︎</span>
+              <span class="arrow b">⬆︎</span>
+            </div>
+            <p class="muted" style="text-align:right;">(Klicka på knappen för att se mitt “framtida CV” – hur jag kan utvecklas hos er inom 12 månader.)</p>
+          </div>
+        </div>
+
+        <div class="view" id="future">
+          <div class="cv">
+            <h2>Amr Alrifai – Framtida CV (okt 2026)</h2>
+            <p class="muted">En snabb blick ett år fram i tiden – vad jag tror att jag har åstadkommit hos er.</p>
+
+            <div class="kudos">
+              <strong>Roll:</strong> Kontorsvärd / Community Host (deltid) · Göteborg<br />
+              <strong>Höjdpunkter:</strong> 95% nöjdhet i veckovisa enkätfrågor; onboarding av 20+ nya hyresgäster; egen checklista för öppning/stängning; små-event/after work varje månad.
+            </div>
+
+            <div class="grid">
+              <div>
+                <h3>Styrkor & superkrafter</h3>
+                <ul>
+                  <li>“<strong>Fastest coffee boy in the west</strong>” ☕ – levererar, fixar, ler.</li>
+                  <li>Onboarding‑ninja: gör första veckan enkel och välkomnande.</li>
+                  <li>Ordning & struktur: lager av förbrukning, skyltning och mötesrum alltid redo.</li>
+                  <li>Community‑känsla: säger hej, knyter ihop människor, skapar trivsel.</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Kunskaper jag byggt</h3>
+                <ul>
+                  <li>Grundläggande IT‑stöd: Google Workspace/Office, Notion, enklare CRM.</li>
+                  <li>Enkel webbförståelse: HTML/CSS, lite JavaScript – nog för små förbättringar.</li>
+                  <li>Eventkoordinering: planera, bjuda in, köra – utan att störa driften.</li>
+                  <li>Automationsstudier: sensorer/logik (PLC intro), ordnad felsökning.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="grid">
+              <div>
+                <h3>Intyg & certifikat</h3>
+                <ul>
+                  <li>RUS – Ansvarsfull alkoholservering (uppdaterad)</li>
+                  <li>HACCP & hygien (uppfräschat)</li>
+                  <li>Brand & säkerhet i kontorsmiljö (intern)</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Språk</h3>
+                <p>Svenska, engelska, arabiska – flytande i tal och skrift.</p>
+              </div>
+            </div>
+
+            <div>
+              <h3>Vad jag vill nästa år</h3>
+              <ul>
+                <li>Fortsätta vara kontorets vänliga nav och utveckla community‑känslan.</li>
+                <li>Automatisera små rutiner (enkla script/checklistor) för ännu bättre flow.</li>
+                <li>Ta mer ansvar för leverantörskontakter och avtalsstöd.</li>
+              </ul>
+            </div>
+
+            <a class="back" id="toPresent">← Tillbaka till nutiden</a>
+          </div>
+        </div>
+
+        <div class="flash-transition" id="flash"></div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const present = document.getElementById('present');
+    const future  = document.getElementById('future');
+    const toFutureBtn = document.getElementById('toFuture');
+    const toPresentLink = document.getElementById('toPresent');
+    const flash = document.getElementById('flash');
+
+    function showFuture(){
+      flash.classList.add('flash-active');
+      setTimeout(()=>{
+        present.classList.remove('active');
+        future.classList.add('active');
+      },400);
+      setTimeout(()=> flash.classList.remove('flash-active'),800);
+    }
+
+    function showPresent(){
+      future.classList.remove('active');
+      present.classList.add('active');
+    }
+
+    toFutureBtn.addEventListener('click', showFuture);
+    toPresentLink.addEventListener('click', (e)=>{ e.preventDefault(); showPresent(); });
+  </script>
+</body>
+</html>
